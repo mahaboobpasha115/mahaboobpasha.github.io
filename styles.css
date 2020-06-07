@@ -376,9 +376,18 @@ svg circle:nth-child(2) {
   transform: rotate(-45deg);
 }
 
+.nav-social{
+  display: flex;
+  justify-content: center;
+  
+  list-style: none;
+  
+}
+.nav-social li{
+  margin:0 30px;
+}
 .social-media {
   margin: 5rem;
-  
   
 }
 .social-media i {
@@ -505,9 +514,7 @@ svg circle:nth-child(2) {
   li {
     margin: 2rem 0;
   }
-  .nav-link {
-    font-size: 4.5rem;
-  }
+  
   .about-heading h1 {
     font-size: 8rem;
   }
@@ -579,97 +586,21 @@ svg circle:nth-child(2) {
     margin-bottom: 2rem;
   }
   @media (max-width: 450px) {
-    #menu {
-  
-      height: 50px;
-      margin: 30px 0 20px 20px;
-      cursor: pointer;
+     
+
+    .nav{
+display: flex;
+margin-top: -30px;
     }
-    .bar {
-      height: 5px;
-      width: 100%;
-      background: linear-gradient(to top, #ffe838, #fd57bf);
-      display: block;
-      border-radius: 5px;
-      transition: 0.3s ease;
+    .nav li a{
+      font-size: 2rem;
+      margin: 0 12px;
     }
-    #bar1 {
-      transform: translateY(-4px);
-      width: 40px;
-    margin-left: 5px;
+
+    .change-bg{
+      width: 920px;
+      height: 40%;
     }
-    #bar2{
-      width: 50px;
-      }
-    #bar3 {
-      transform: translateY(4px);
-      width: 40px;
-      margin-left: 5px;
-    }
-    .nav li a {
-      font-size: 30px;
-      color: #fff;
-      text-decoration: none;
-      font-family: "Satisfy", sans-serif;
-      
-    }
-    .nav li a:hover {
-      font-weight: bold;
-      color:yellow;
-    }
-    .nav li {
-      list-style: none;
-      padding: 16px 0;
-      
-    }
-    
-    .nav {
-      padding: 0;
-      margin: 0 30px;
-      transition: 0.3s ease;
-      display: none;
-    }
-    .menu-bg,
-    #menu-bar {
-      top: 0;
-      left: 0;
-      position: absolute;
-    }
-    .menu-bg {
-      z-index:1 ;
-      width: 0;
-      height:0 ;
-      margin: 30px 0 20px 20px;
-      background: radial-gradient(circle, #e94498, #b81568);
-      border-radius: 10%;
-      transition: 0.3s ease;
-    }
-    #menu-bar {
-      z-index: 2;
-    }
-    .change-bg {
-      width: 400px;
-      height: 100vh;
-    
-      transform: translate(-60%, -30%);
-    }
-    .change .bar {
-      background-color: white;
-    }
-    .change #bar1 {
-      transform: translateY(4px) rotateZ(-45deg);
-    }
-    .change #bar3 {
-      transform: translateY(-6px) rotate(45deg);
-    }
-    .change #bar2 {
-      opacity: 0;
-    }
-    .change {
-      display: block;
-    }
-    
-  
     img {
       width: 320px;
       margin-left: 45px;
