@@ -608,7 +608,7 @@ svg circle:nth-child(2) {
       margin: 0 30px;
       transition: 0.3s ease;
       display: flex;
-      background-color:white;
+     
     }
     .menu-bg,
     #menu-bar {
